@@ -925,9 +925,9 @@ class High_Roller_Table(Prestige_Store_Item):
     name = "gamble_level"
     display_name = "High Roller Table"
 
-    gamble_levels = [50, 500, 1500, 5000, 10000, 100000, 10000000]
+    gamble_levels = [50, 500, 1500, 5000, 10000, 100000, 10000000, 93258468905632490863452]
 
-    costs = [0, 1, 1, 1, 1, 1, 1]
+    costs = [0, 1, 1, 1, 1, 1, 1, 1]
 
     @classmethod
     def cost(cls, user_account: account.Bread_Account) -> int:
